@@ -1,0 +1,39 @@
+/* Searchwidth */
+.width{
+    width: 35vw;
+}
+
+.search-btn{
+    margin-top: -7px;
+    background-color: white;
+    padding-left:10px ;
+    padding-right:10px ;
+    border-radius: 1rem;
+    color: #2b3035;
+    font-weight: 700;
+    border-style: none;
+    transition: all 200ms ease-in;
+    border-style: solid;
+    border-color: black;
+    width: 200px;
+    height: 50px;
+
+
+}
+
+
+
+.search-btn:hover{
+    background-color: black;
+    color: white;
+    font-size: 110%;
+}
+
+.search-input{
+    border-radius: 0px;
+    border-style:solid;
+    border-color: rgba(0, 0, 0, 0.4);
+    border-radius: 6px;
+
+}
+

@@ -1,0 +1,21 @@
+.update-btn{
+    border-style: 1px !important ;
+    border-width: 1px !important;
+    border-color: black !important;
+    width: 100% ;
+    background-color: black;
+    color: white;
+    transition: 0.3s !important;
+    margin: auto;
+}
+
+.dlte-btn{
+    border-style: 1px !important;
+    border-width: 1px !important;
+    border-color: red !important;
+    width: 100%;
+    background-color: red;
+    color: white;
+    transition: 0.3s !important;
+    margin: auto;
+}

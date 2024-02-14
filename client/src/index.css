@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&family=Playfair+Display:wght@800&family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* LOGIN */
+
+.login {
+    max-width: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title {
+    margin-top: 40px;
+}
+
+.login button {
+    margin: auto;
+}
+
+
+
+/* PageNOtFoundCSS */
+
+.pnf {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pnf-title {
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.pnf-heading {
+    font-weight: normal;
+}
+
+.pnf-btn {
+    color: black;
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 5px 10px 5px;
+    margin: 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+
+}
+
+.pnf-btn:hover {
+    color: white;
+    background-color: black;
+}
+
+
+/* font-family: 'Big Shoulders Display', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;*/
+
+
+/* Layout body */
+
+.maxheight {
+    min-height: 65.8vh;
+}
+
+/* NAVBAR STYLE */
+
+.navbar {
+    /* position: fixed; */
+    min-width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    line-height: 26px;
+    text-transform: uppercase;
+    box-shadow: 0 8px 6px -4px gray;
+    border-bottom: solid gray !important;
+}
+
+
+
+.not-underline .active {
+    border-style: none !important;
+}
+
+
+.cart-badge {
+    margin-left: -18px;
+    background-color: orangered !important;
+}
+
+.active {
+    border-bottom: 2px solid white;
+}
+
+.navbar-brand {
+    font-family: 'Big Shoulders Display', cursive;
+    text-shadow:rgba(255, 255, 255, 0.4) 0px 0px 10px;
+    font-weight:bolder;
+    letter-spacing: 5px;
+    font-size: 40px;
+
+}
+
+.filtr{
+    margin: auto;
+    margin-top: -32px;
+    margin-bottom: 20px;
+    background: #2b3035;
+    padding: 20px;
+    position: relative;
+    z-index: 10000;
+    width: 15vw;
+    color: white;
+    padding: 10px 0 ;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+.filterBtn {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    background-color: #2b3035;
+    color: white;
+    border-style: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    transition: 0.3s;
+}
+
+.filterBtn:hover {
+    scale: 110%;
+    background-color: black;
+}
+
+/* CONTACTUS */
+
+.image {
+    border-radius: 5px;
+}
+
+.contactus {
+    margin-top: 5rem;
+}
+
+/* gap */
+
+.gap {
+    padding: 40px;
+}
+
+
+/* FOOTER */
+
+.footer {
+    position: relative;
+    background-color: rgb(43, 48, 53);
+    color: #fff;
+    padding-top: 10px;
+    max-width: 100%;
+    min-width: 100%;
+    margin-bottom: 0;
+    bottom: 0;
+}
+
+.margin0 {
+    margin-top: 0px !important;
+    margin-bottom: 2px !important;
+}
+
+.footer a {
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    margin: 2px;
+}
+
+.footer a:hover {
+    color: rgb(202, 203, 204);
+    border-bottom: 0.5px solid;
+}
+
+
+/* ProductLink */
+
+.product-link {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* general */
+.cursor-pointer {
+    cursor: pointer;
+}
+
+/* Cart Button */
+.btn-to-cart {
+    position: relative;
+    color: black;
+    border: 1px solid black;
+    padding: 5px 10px 5px;
+    border-radius: 5px;
+    transition: 0.3s;
+    width: 100%;
+    position: relative;
+    z-index: 1; 
+
+}
+.btn-goto-cart {
+    position: relative;
+    color: wheat;
+    background: rgb(2, 2, 62);
+    border: 1px solid black;
+    padding: 5px 10px 5px;
+    border-radius: 5px;
+    transition: 0.3s;
+    width: 100%;
+    position: relative;
+    z-index: 1; 
+
+}
+
+.btn-to-cart:hover {
+    color: white;
+    background-color: black;
+}
+.btn-goto-cart:hover {
+    color: rgb(2, 2, 62);
+    background-color: wheat;
+}
+
+/* cart button */
+
+.align-corner {
+    margin-top: -9rem;
+    margin-left: 19rem;
+
+}
+
+
+/* Scroll bar */
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+::selection{
+    color: white;
+    background: #212A3E;
+}
+
