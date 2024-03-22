@@ -1,8 +1,5 @@
 # Shopify-ecommerce
 
-## Website-Link
-[Raj-Kart](https://different-loafers-calf.cyclic.app/)
-
 ## Description
 This is a MERN Stack website where front end part is done using React and Basic CSS but for Navbar and Cart Badge Bootstrap has been used and for Modal AntD has been used. React has been used for rest all the Frontend part. For Backend purpose Express has been used for server and MongoDB for database. Every filter like search and others like price and Category is being controlled by backend. The backend also accepts images which is sent to backend using formidable(NodeJS Library) and fs(FileSystem-Node Library). React has been used for rest all the Frontend part. This uploaded file is the Production build of react
 
