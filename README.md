@@ -1,4 +1,4 @@
-# RajKart-ecommerce
+# Shopify-ecommerce
 
 ## Website-Link
 [Raj-Kart](https://different-loafers-calf.cyclic.app/)
